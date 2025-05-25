@@ -36,14 +36,19 @@ let solutionForgame= {
     8:15,   15:8
 }
 
-console.log(Math.floor(Math.random()*16)+1);  //it will generate the val [1,16];
+// console.log(Math.floor(Math.random()*16)+1);  //it will generate the val [1,16];
   
-console.log(solutionForgame[10]);
+// console.log(solutionForgame[10]);
 
 let box1,box2;
 let countWin = 0;
 const totalMoves = 30;
 let curMoves = 0;
+
+//  function playSound(){
+//     let audio = document.querySelector('#FlipCardAudio');
+//     audio.play();
+// }
 
 countBox.innerText = totalMoves-curMoves;
 //there is an array of box1
@@ -51,6 +56,7 @@ countBox.innerText = totalMoves-curMoves;
     for(let box of box1Box){
         box.addEventListener('click',(e)=>{
             // e.preventDefault();
+            // playSound();
             if(curMoves<totalMoves){
             curMoves++;
             checkMovesLimit(curMoves);
@@ -105,11 +111,11 @@ countBox.innerText = totalMoves-curMoves;
 
             console.dir(forResultBox)
             forResultBox.children[0].innerText = "YOU LOSE";
-            forResultBox.children[1].attributes[1].value = "game-over.png"; 
+            forResultBox.children[1].attributes[1].value = "images/game-over.png"; 
             // alert("you loose");
             // forResultBox.children. = `<h1>You LOSE </h1>
             
-            // <img id = "win-img" src="game-over.png" alt="">
+            // <img id = "win-img" src="images\game-over.png" alt="">
             // <button id="play-again">PLAY AGAIN</button>`;
             forResultBox.style.display = 'flex';
         }
