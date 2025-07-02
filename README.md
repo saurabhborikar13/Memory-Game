@@ -15,10 +15,13 @@ The **Flip Card Memory Game** is a web-based game where players flip cards to fi
 ![image](https://github.com/user-attachments/assets/f96c4cf6-5daf-4627-b92e-202b5109b860)
 
 #### 🏆 Win Screen
-![Win Screen](images/win.png)
+![win](https://github.com/user-attachments/assets/302ac3c1-50eb-4082-b772-1587896bd103)
+
 
 #### ❌ Lose Screen
-![Lose Screen](images/lose.png)
+![loose](https://github.com/user-attachments/assets/54f8c4c3-87bc-424d-85fb-47128facf61a)
+
+
 
 
 ## Features
