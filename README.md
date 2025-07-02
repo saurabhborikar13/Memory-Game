@@ -4,9 +4,22 @@ This game is live at : https://saurabhborikar13.github.io/Memory-Game/
 
 ## Overview
 
+
 The **Flip Card Memory Game** is a web-based game where players flip cards to find matching pairs. The goal is to match all pairs within a limited number of moves. The game features a visually appealing design with animations, a move counter, and a score tracker. It also includes a win/lose screen and a reset option to restart the game.
 
 ---
+
+### 🖼️ How game Looks
+
+#### 🎮 Gameplay
+![image](https://github.com/user-attachments/assets/f96c4cf6-5daf-4627-b92e-202b5109b860)
+
+#### 🏆 Win Screen
+![Win Screen](images/win.png)
+
+#### ❌ Lose Screen
+![Lose Screen](images/lose.png)
+
 
 ## Features
 
